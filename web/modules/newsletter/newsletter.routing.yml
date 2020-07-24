@@ -1,0 +1,6 @@
+newsletter:
+    path: /newsletter
+    defaults:
+        _controller: Drupal\newsletter\Controller\newsletterController::show
+    requirements:
+        _permission: 'administer content'
